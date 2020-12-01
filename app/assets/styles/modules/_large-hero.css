@@ -1,18 +1,56 @@
 .large-hero {
     color: purple;
     position: relative;
+
+    &__text-content{
+        position: absolute;
+        /* top: 0; */
+        left: 0;
+
+        /* center the text horizontaly */
+        width: 100%;
+        text-align: center;
+
+        /* center the text vertically */
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &__title{
+        font-weight: 300;
+        color: #2f5572;
+        font-size: 4.8rem;
+    }
+
+    &__subtitle{
+        font-weight: 300;
+        color: #2f5572;
+        font-size: 2.9rem;
+    }
 }
+/* following BEM we can be more organized */
+/* .large-hero__text-content{ */
+/*     position: absolute; */
+/*     /1* top: 0; *1/ */
+/*     left: 0; */
 
-.large-hero__text-content{
-    position: absolute;
-    /* top: 0; */
-    left: 0;
+/*     /1* center the text horizontaly *1/ */
+/*     width: 100%; */
+/*     text-align: center; */
 
-    /* center the text horizontaly */
-    width: 100%;
-    text-align: center;
+/*     /1* center the text vertically *1/ */
+/*     top: 50%; */
+/*     transform: translateY(-50%); */
+/* } */
 
-    /* center the text vertically */
-    top: 50%;
-    transform: translateY(-50%);
-}
+/* .large-hero__title{ */
+/*     font-weight: 300; */
+/*     color: #2f5572; */
+/*     font-size: 4.8rem; */
+/* } */
+
+/* .large-hero__subtitle{ */
+/*     font-weight: 300; */
+/*     color: #2f5572; */
+/*     font-size: 2.9rem; */
+/* } */
