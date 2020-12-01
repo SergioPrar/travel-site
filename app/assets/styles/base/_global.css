@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* arreglar tamaño de imagen de manera global para que encaje pantalla */
+img {
+    max-width: 100%;
+    height: auto;
+}
+

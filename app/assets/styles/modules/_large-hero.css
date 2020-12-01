@@ -1,0 +1,18 @@
+.large-hero {
+    color: purple;
+    position: relative;
+}
+
+.large-hero__text-content{
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+
+    /* center the text horizontaly */
+    width: 100%;
+    text-align: center;
+
+    /* center the text vertically */
+    top: 50%;
+    transform: translateY(-50%);
+}
