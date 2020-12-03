@@ -20,12 +20,29 @@
         font-weight: 300;
         color: #2f5572;
         font-size: 4.8rem;
+        /* eliminate the margin with the tittle and the subtitle */
+        margin: 0;
     }
 
     &__subtitle{
         font-weight: 300;
         color: #2f5572;
         font-size: 2.9rem;
+        margin: 0;
+    }
+
+    &__description{
+        color: #FFF;
+        font-size: 1.875rem;
+        font-weight: 100;
+        /* Adding a shadow to the text */
+        text-shadow: 2px 2px 0 rgba(0,0,0,.1);
+        /* Dividing the text in two lines */ 
+        /* 1.- meshure the hitbox of the text -> width: 480px converting to rem would be 30 rem*/
+        /* 2.- adding the right margin */
+        width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 /* following BEM we can be more organized */
