@@ -1,0 +1,22 @@
+.btn{
+    /* lets define our base button is the blue one at the rigth corner */
+    background-color: $mainBlue;
+    color: #FFF;
+    /* eliminar linea the link */
+    text-decoration: none;
+
+    /* adding vertical and horizontal padding, make shure use inline-block for the parent and surround elements be aware of this padding */
+    padding: .75rem 1.2rem;
+    display: inline-block;
+
+    &--orange {
+        background-color: $mainOrange;
+    }
+
+    /* adding a modifier of an already modified element */
+    &--large {
+        font-size: 1.25rem;
+        padding: 1.1rem 1.9rem;
+    }
+
+}
