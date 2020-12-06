@@ -19,9 +19,22 @@
     &__title{
         font-weight: 300;
         color: $mainBlue;
-        font-size: 4.8rem;
-        /* eliminate the margin with the tittle and the subtitle */
         margin: 0;
+        /* font-size: 4.8rem; this whar for desktop, but we need implement mobile first */
+        font-size: 1.1rem;
+
+        /* @media (min-width: 530px) { */
+        /*     font-size: 4.8rem; */
+        /* } */
+        @mixin atSmall{
+            font-size: 2rem;
+        }
+        @mixin atMedium{
+            font-size: 3.2rem;
+        }
+        @mixin atLarge{
+            font-size: 4.8rem;
+        }
     }
 
     &__subtitle{
