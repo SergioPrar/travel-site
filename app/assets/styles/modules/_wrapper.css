@@ -1,4 +1,9 @@
 .wrapper {
     padding-left: 18px;
     padding-right: 18px;
+
+    /* max-width for text in widescreen and margin for horizontlalcenter text in the screen*/
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto
 }
