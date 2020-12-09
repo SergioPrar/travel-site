@@ -5,5 +5,15 @@
     /* max-width for text in widescreen and margin for horizontlalcenter text in the screen*/
     max-width: 1200px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+
+    &--medium{
+        max-width: 976px;
+    }
+
+    /* any wrapper that is nested inside another wrapper should not have any more padding */
+    .wrapper{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
