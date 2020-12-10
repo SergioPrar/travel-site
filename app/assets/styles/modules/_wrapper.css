@@ -1,4 +1,6 @@
 .wrapper {
+    /* the overflow hidden helps to eliminate the padding of the last element in the rows because of the negative margin */
+    overflow: hidden;
     padding-left: 18px;
     padding-right: 18px;
 

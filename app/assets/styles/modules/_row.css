@@ -1,0 +1,29 @@
+.row{
+
+    @mixin clearfix;
+    
+    &--gutters{
+        /* adding margin to eliminate the padding of the last element */
+        margin-right: -65px;
+    }
+    /* this means target all the child elements in this case all the inside dives */
+    &--gutters > div{
+        padding-right: 65px;
+        /* box-sizing: border-box; */
+        /* this change the way the browser calculates the true widh, and add the extra padding we added of the gutters */
+    }
+
+
+    @mixin atMedium{
+        
+        &__medium-4 {
+            float: left;
+            width: 33.33%;
+        }
+
+        &__medium-8 {
+            float: left;
+            width: 66.66%;
+        }
+    }
+}

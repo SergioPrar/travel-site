@@ -9,3 +9,7 @@ img {
     height: auto;
 }
 
+/* targets every element in the page, this calculates the true width of the elements like when we added the glutters */
+*{
+    box-sizing: border-box;
+}

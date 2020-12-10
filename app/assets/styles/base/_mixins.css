@@ -14,4 +14,13 @@
     @media(min-width: 1200px){
         @mixin-content;
     }
+
+    @define-mixin clearfix{
+        /* this creates a fake css element to fix the problem with the floats elements */
+        &::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
 }
